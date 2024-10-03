@@ -57,7 +57,7 @@ tsc folder/index.ts
 node folder/index.js
 ```
 
-# Пакет ts-node
+## Пакет ts-node 
 
 ```bash
 # Запустить консоль в терминале (удобно)
