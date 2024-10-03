@@ -1,7 +1,10 @@
 # Awesome TypeScript
 <hr>
 
-**[TypeScript](https://www.typescriptlang.org/) — это язык программирования, разработанный Microsoft** 🏛️
+[![TypeScript](https://img.shields.io/badge/TypeScript-%234B4B5D?style=for-the-badge&logo=typescript&logoColor=%233178C6)]([https://www.typescriptlang.org/](https://www.typescriptlang.org/))
+
+**Язык программирования, разработанный Microsoft** 🏛️
+
 <hr>
 
 - 🚩 Статическая типизация:💡 Позволяет задавать типы переменных, что помогает избежать ошибок во время выполнения.
