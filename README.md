@@ -1,7 +1,8 @@
 # Awesome TypeScript
+
 <hr>
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-%234B4B5D?style=for-the-badge&logo=typescript&logoColor=%233178C6)]([https://www.typescriptlang.org/](https://www.typescriptlang.org/))
+[![TypeScript](https://img.shields.io/badge/TypeScript-%234B4B5D?style=for-the-badge&logo=typescript&logoColor=%233178C6)](<[https://www.typescriptlang.org/](https://www.typescriptlang.org/)>)
 
 **Язык программирования, разработанный Microsoft** 🏛️
 
@@ -62,7 +63,7 @@ tsc folder/index.ts
 node folder/index.js
 ```
 
-## Пакет ts-node 
+## Пакет ts-node
 
 ```bash
 # Запустить консоль в терминале (удобно)
