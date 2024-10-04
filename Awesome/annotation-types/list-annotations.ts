@@ -1,9 +1,8 @@
 // #  -------------Примитивные типы (1)
 
-let userName: string = 'John'; // type string:
+let userNameB: string = 'John'; // type string:
 let userAge: number = 25; // type number:
 let active: boolean = true; // type boolean:
-
 
 // # ----------Массивы (2)
 
