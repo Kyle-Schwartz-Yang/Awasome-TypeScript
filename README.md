@@ -1,4 +1,5 @@
 # Awesome TypeScript
+[текст ссылки](URL)
 
 <hr>
 
