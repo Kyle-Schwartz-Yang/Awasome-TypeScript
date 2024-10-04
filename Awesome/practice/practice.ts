@@ -1,5 +1,6 @@
 
 //* Типизирую код
+/*
 const currRate = "1.05";
 const fetchCurr = (responce) => {
   const data = JSON.parse(responce);
@@ -17,9 +18,11 @@ function transferEurToUsd(available, amount, commission) {
 
 transferEurToUsd(true, 500, 1.05);
 
+*/
+
 
 //? Осторожно : РЕШЕНИЕ 
-/*
+
 const currRate = "1.05";
 const fetchCurr = (responce: string): number => {
   const data: number = JSON.parse(responce);
@@ -37,5 +40,4 @@ function transferEurToUsd(available: boolean, amount: number, commission: number
 
 transferEurToUsd(true, 500, 1.05);
 
-*/
 
