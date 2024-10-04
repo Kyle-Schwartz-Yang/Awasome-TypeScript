@@ -7,5 +7,6 @@ function logBrtMsg(isBirhday: boolean, useName: string, age: number): string {
   }
 }
 
-
 console.log(logBrtMsg(true, 'Jeck', 22))
+
+
