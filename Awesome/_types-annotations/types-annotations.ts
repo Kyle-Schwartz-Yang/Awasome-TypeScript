@@ -62,6 +62,13 @@ id = "abc123";
 id = 123;
 
 
+function showMsgUnionCopy(msg: string | number): void {
+  console.log(msg);
+}
+showMsgUnion('Строка');
+showMsgUnion('Число');
+
+
 // #  --------------- тип unknown (9)
 
 // Безопасный аналог any, когда тип данных неизвестен:
