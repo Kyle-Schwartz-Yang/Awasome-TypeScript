@@ -1,4 +1,3 @@
-
 // runtime - not needed! ( Переменные заданы статически )
 const isBirthday: boolean = true;
 const age: number = 40;
