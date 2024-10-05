@@ -67,3 +67,13 @@ function printNumber(x: any) {
     console.log("Not a number");
   }
 }
+
+
+//# 4.1 Сужение с помощью in оператора (Упрощенный вариант)
+function showMsgObject(readings: { user: string } | { unique: number }) {
+  if ('user' in readings) {
+    console.log(readings.user)
+  } else {
+    console.log(readings.unique)
+  }
+}
