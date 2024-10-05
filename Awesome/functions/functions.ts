@@ -13,6 +13,19 @@ console.log(logBrtMsg2(true, 'Jeck', 22))
 
 // (Вывод в консоль, отправка данных на сервер, работа с DOM-деревом) - имеет тип :void 
 /* Ничего не возвращает :void */
-function logMessage(message: string): void {
+function logMessage52(message: string): void {
   console.log(message);
 }
+
+
+
+/*
+// Использование Union
+function showMsgUnion52(msg: string | number): void {
+  console.log(msg);
+}
+showMsgUnion('Строка');
+showMsgUnion('Число');
+
+*/
+
