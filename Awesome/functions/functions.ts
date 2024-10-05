@@ -1,5 +1,5 @@
 
-function logBrtMsg(isBirhday: boolean, useName: string, age: number): string {
+function logBrtMsg2(isBirhday: boolean, useName: string, age: number): string {
   if (isBirhday) {
     return `Name ${useName.toLowerCase()} age: ${age + 1}`
   } else {
@@ -7,6 +7,6 @@ function logBrtMsg(isBirhday: boolean, useName: string, age: number): string {
   }
 }
 
-console.log(logBrtMsg(true, 'Jeck', 22))
+console.log(logBrtMsg2(true, 'Jeck', 22))
 
 
