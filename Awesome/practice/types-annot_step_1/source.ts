@@ -1,5 +1,5 @@
 
-
+/*
 const currRate = "1.05";
 const fetchCurr = (responce) => {
   const data = JSON.parse(responce);
@@ -16,3 +16,4 @@ function transferEurToUsd(available, amount, commission) {
 }
 
 transferEurToUsd(true, 500, 1.05);
+*/
