@@ -18,6 +18,7 @@
 - Первые две операции с каждой стороны будут без ошибок, остальные и подобные всегда будут давать ошибку. 
 - Такое поведение можно отключить в tsconfig.json `strictNullChecks: false` **Но! "Никогда так не делай"**
 - Это правильное поведение, так должно быть ! 💡
+
 ```TypeScript
 const smth: null = null; // null 👌
 const smth: any = null; // null 👌
@@ -28,5 +29,4 @@ const smth: undefined = undefined; // undefined 👌
 const smth: any = undefined; // undefined 👌
 const smth: string = undefined; // error
 const smth: number = undefined; // error
-
 ```
