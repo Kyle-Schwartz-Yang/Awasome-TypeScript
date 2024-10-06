@@ -158,15 +158,10 @@
 <details>
 <summary><code>types :aliases 📌</code></summary>
   
-# Aliases - Это удобно сохранять перебор Union.
-
-  <a href="https://www.typescriptlang.org/docs/handbook/declaration-files/by-example.html#reusable-types-type-aliases" target="_blank">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Documentation-%232a7aef?style=flat&logo=typescript&logoColor=%23fff&labelColor=%23000000">
-  </a>
-
-  <hr>
+### Aliases - Это удобно сохранять перебор Union.
 
 - 🔗 [types/ `aliases`](../Awesome/types/aliases/aliases.md)
+- 🔗 [off.Докуметация: types aliases](https://www.typescriptlang.org/docs/handbook/declaration-files/by-example.html#reusable-types-type-aliases)
 
 ```TypeScript
   type Animals = 'cat' | 'dog' | 'monkey';
