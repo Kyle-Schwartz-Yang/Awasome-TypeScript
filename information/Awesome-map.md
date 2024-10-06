@@ -26,8 +26,8 @@
   
 ### `Array` : *Аннотация для массивов*
 
-- 🔗 [Theme/ Functions](../Awesome/theme/functions/fn.md)
-- 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
+- 🔗 [Theme/ Array](../Awesome/theme/Array/array.md)
+
 
 </details>
 <!-- ----------------------------------------------------------------- -->
@@ -37,8 +37,11 @@
   
 ### `Object` : *Аннотация для объектов*
 
-- 🔗 [Theme/ Functions](../Awesome/theme/functions/fn.md)
-- 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
+> Редко используется 💡
+
+- 🔗 [Theme/ Object](../Awesome/theme/Object/object.md)
+- 🔗 [Theme/ Object Literal](../Awesome/theme/Object/objLiteral.md)
+
 
 </details>
 <!-- ----------------------------------------------------------------- -->
@@ -48,8 +51,14 @@
   
 ### `Tuples` : *Кортежи*
 
-- 🔗 [Theme/ Functions](../Awesome/theme/functions/fn.md)
-- 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
+- 🔗 [Theme/ Functions](../Awesome/theme/Tuples/Tuples.md)
+
+```TypeScript
+
+  // Tuples of three elements
+  const tuples: [string, number, boolean] = ["Jane", 25, true];
+
+```
 
 </details>
 <!-- ----------------------------------------------------------------- -->
@@ -61,6 +70,20 @@
 
 - 🔗 [Theme/ Narrowing](../Awesome/theme/Narrowing/Narrowing.md)
 - 🔗 [off.Докуметация](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
+
+
+```TypeScript
+
+//# 2. Сужение с помощью проверки на истинность
+function printLength(str: string | null) {
+  if (str) {
+    console.log(str.length);  // Здесь str точно не null
+  } else {
+    console.log("It's null or empty string");
+  }
+}
+
+```
 
 </details>
 
