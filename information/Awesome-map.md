@@ -10,13 +10,12 @@
 
 # 🧩 Theme typescript
 
-
 <details>
 <summary><code>Functions 📌</code></summary>
   
 ### `Functions` : *Аннотация для функции*
 
-- 🔗 [Theme/ Functions](../Awesome/functions/fn.md)
+- 🔗 [Theme/ Functions](../Awesome/theme/Functions/fn.md)
 - 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 
 </details>
@@ -27,7 +26,7 @@
   
 ### `Array` : *Аннотация для массивов*
 
-- 🔗 [Theme/ Functions](../Awesome/functions/fn.md)
+- 🔗 [Theme/ Functions](../Awesome/theme/functions/fn.md)
 - 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 
 </details>
@@ -38,7 +37,7 @@
   
 ### `Object` : *Аннотация для объектов*
 
-- 🔗 [Theme/ Functions](../Awesome/functions/fn.md)
+- 🔗 [Theme/ Functions](../Awesome/theme/functions/fn.md)
 - 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 
 </details>
@@ -49,7 +48,7 @@
   
 ### `Tuples` : *Кортежи*
 
-- 🔗 [Theme/ Functions](../Awesome/functions/fn.md)
+- 🔗 [Theme/ Functions](../Awesome/theme/functions/fn.md)
 - 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 
 </details>
@@ -60,7 +59,7 @@
   
 ### `Narrowing` : *Механизм сужения типов*  
 
-- 🔗 [Theme/ Narrowing](../Awesome/Narrowing/Narrowing.md)
+- 🔗 [Theme/ Narrowing](../Awesome/theme/Narrowing/Narrowing.md)
 - 🔗 [off.Докуметация](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
 
 </details>
