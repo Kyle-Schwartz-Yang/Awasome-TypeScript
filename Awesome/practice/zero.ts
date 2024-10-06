@@ -6,3 +6,4 @@ const userName: string = 'John';
 if (isBirthday) {
   console.log(`User name ${userName}, age: ${age + 1}`);
 }
+
