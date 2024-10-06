@@ -39,43 +39,39 @@
 
 # 🧩 Types annotations
 
-### Types :any - это дословно «любое значение». 💡
-- [types/ `any`](../Awesome/types/any/type-any.md)
+<details>
+<summary> 📌Type ANY</summary>
+  
+> Type :any - это дословно «любое значение». 💡
 
-### Types bigint and Symbol - bigint требуется настройки (tsconfig) 💡
-- [types/ `bigint and Symbol`](../Awesome/types/bigintxSymbol/info.md)
+- 🔗 [types/ `any`](../Awesome/types/any/type-any.md)
 
-### Неизменное значение литерала: `let msg: 'Hello World' = 'Hello World'`
-- [types/ `literal`](../Awesome/types/literal/literal.md)
-
-
-### Бескнечные/Ошибка функции возвращают `type :never`
-- [types/ `never`](../Awesome/types/never/type-never.md)
-
-### Types null / undefined 
-- [types/ `null and undefined`](../Awesome/types/nullxUndefined/info.md)
-```TypeScript
-const smth: null = null; // null 👌
-const smth: any = null; // null 👌
-const smth: string = null; // error
-const smth: number = null; // error
-// ---------------------------------------------
-const smth: undefined = undefined; // undefined 👌
-const smth: any = undefined; // undefined 👌
-const smth: string = undefined; // error
-const smth: number = undefined; // error
+```typescript 
+  const random: any = 220; 
 ```
+
+</details>
+
+
+### Type bigint and Symbol (Обычное определение)
+- 🔗 [types/ `bigint and Symbol`](../Awesome/types/bigintxSymbol/info.md)
+
+
+### Фиксирует конкретное значение переменной `let msg: 'Hello' = 'Hello'`
+- 🔗 [types/ `literal`](../Awesome/types/literal/literal.md)
+
+
+### Функция никогда не возвращает значение. `type :never`
+- 🔗[types/ `never`](../Awesome/types/never/type-never.md)
+
+
+### Types null / undefined (обычное определение)
+- 🔗 [types/ `null and undefined`](../Awesome/types/nullxUndefined/info.md)
+
 
 ### Union объединяет несколько типов в один.
-- [types/ `union`](../Awesome/types/union/union.md)
+- 🔗 [types/ `union`](../Awesome/types/union/union.md)
 
-```typescript
-  function showMsgUnion(msg: string | number): void {
-    console.log(msg);
-  }
-  showMsgUnion('Строка');
-  showMsgUnion('Число');
-```
 
 
 
