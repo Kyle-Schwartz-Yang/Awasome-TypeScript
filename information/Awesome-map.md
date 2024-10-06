@@ -9,32 +9,66 @@
 
 # 🧩 Theme typescript
 
+
+<details>
+<summary><code>Functions 📌</code></summary>
+  
 ### `Functions` : *Аннотация для функции*
 
 - 🔗 [Theme/ Functions](../Awesome/functions/fn.md)
 - 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
+
+</details>
+<!-- ----------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------- -->
+<details>
+<summary><code>Array 📌</code></summary>
   
 ### `Array` : *Аннотация для массивов*
 
 - 🔗 [Theme/ Functions](../Awesome/functions/fn.md)
 - 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 
-
+</details>
+<!-- ----------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------- -->
+<details>
+<summary><code>Object 📌</code></summary>
+  
 ### `Object` : *Аннотация для объектов*
 
 - 🔗 [Theme/ Functions](../Awesome/functions/fn.md)
 - 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 
+</details>
+<!-- ----------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------- -->
+<details>
+<summary><code>Tuples 📌</code></summary>
+  
 ### `Tuples` : *Кортежи*
 
 - 🔗 [Theme/ Functions](../Awesome/functions/fn.md)
 - 🔗 [off.Докуметация: Аннотация аргументов](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 
+</details>
+<!-- ----------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------- -->
+<details>
+<summary><code>Narrowing 📌</code></summary>
+  
 ### `Narrowing` : *Механизм сужения типов*  
 
 - 🔗 [Theme/ Narrowing](../Awesome/Narrowing/Narrowing.md)
 - 🔗 [off.Докуметация](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
 
+</details>
+
+
+<!-- ----------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------- -->
 
 
 # 🧩 Types annotations
