@@ -40,7 +40,7 @@
 > Редко используется 💡
 
 - 🔗 [Theme/ Object](../Awesome/theme/Object/object.md)
-- 🔗 [Theme/ Object Literal](../Awesome/theme/Object/objLiteral.md)
+- 🔗 [Theme/ Object Literal](../Awesome/theme/Object/object-literal.md)
 
 
 </details>
