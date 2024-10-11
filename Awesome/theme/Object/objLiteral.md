@@ -24,7 +24,7 @@ console.log(startServer(serverConfig.protocol, serverConfig.port))
 ```typescript
 
 //  Aннотация переменной функции
-function startServer: 💡 (protocol: "https" | "http", port: 3000 | 3001) => string = (
+const startServer: 💡 (protocol: "https" | "http", port: 3000 | 3001) => string = (
   protocol: "http" | "https", port: 3000 | 3001): 'Server started' {
 
   return "Server started";
@@ -34,7 +34,7 @@ console.log(startServer(serverConfig.protocol, serverConfig.port))
 
 ```
 
-## Нужно разобраться: 📌
+## Давай розбиратся : 📌
 
 ### Аннотация переменной функции: 💡
 
