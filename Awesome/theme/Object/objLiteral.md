@@ -34,7 +34,7 @@ console.log(startServer(serverConfig.protocol, serverConfig.port))
 
 ```
 
-## Давай розбиратся : 📌
+## Давай разбираться : 📌
 
 ### Аннотация переменной функции: 💡
 
