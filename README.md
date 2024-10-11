@@ -1,23 +1,19 @@
 # Awesome TypeScript
-[текст ссылки](URL)
-
-<hr>
-
 [![TypeScript](https://img.shields.io/badge/TypeScript-%234B4B5D?style=for-the-badge&logo=typescript&logoColor=%233178C6)](<[https://www.typescriptlang.org/](https://www.typescriptlang.org/)>)
-
-**Язык программирования, разработанный Microsoft** 🏛️
-
 <hr>
 
-🚩 Статическая типизация:💡 Позволяет задавать типы переменных, что помогает избежать ошибок во время выполнения.
+> **Язык программирования, разработанный Microsoft** 🏛️
 
-🚩 Обратная совместимость с JavaScript:🚀 
 
-🚩 Компиляция в JavaScript:↩️ TypeScript компилируется в чистый JavaScript.
+- 🚩 Статическая типизация:💡 Позволяет задавать типы переменных, что помогает избежать ошибок во время выполнения.
 
-🚩 Поддержка современных возможностей JavaScript.📜
+- 🚩 Обратная совместимость с JavaScript:🚀 
 
-🚩 Использование Angular и REACT 💨
+- 🚩 Компиляция в JavaScript:↩️ TypeScript компилируется в чистый JavaScript.
+
+- 🚩 Поддержка современных возможностей JavaScript.📜
+
+- 🚩 Использование Angular и REACT 💨
 
 <hr>
 <!-- ------------------------------------------------------------- -->
