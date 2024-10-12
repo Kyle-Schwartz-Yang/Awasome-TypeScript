@@ -7,3 +7,4 @@ if (isBirthday) {
   console.log(`User name ${userName}, age: ${age + 1}`);
 }
 
+
