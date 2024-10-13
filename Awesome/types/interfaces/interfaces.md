@@ -2,7 +2,8 @@
 
 > Интерфейс - это еще один тип в TS, который позволяет синтаксически записать шаблон того , который будет создан.
 
-- Обычно именно для interfece дают используя "Венгерскую нотацию" но это не обязательно. `IConfig` 
+- Обычно именно для interfeces дают используя "Венгерскую нотацию" но это не обязательно. `IConfig` ...
+- Интерфейс / interfeces работают именно с классическими объектами...
 
 ```typescript
 interface iConfig {
@@ -14,9 +15,12 @@ interface iConfig {
 > Отличия от type (альсов) минимальное 
 
 ```typescript
+
 type Config {
+
   protocol: "http" | "https";
   port: 3000 | 3001;
+
 }
 
 ```
@@ -64,3 +68,74 @@ const styles: Styles = {
 }
 
 ```
+
+## Примеры использования type
+
+- Обрати внимания на локаничность
+- Все можно переписать на Interfaces, кроме `type StartFunction` Поскольку это не класический объект
+- Можно строго указать `const serverConfig: BasicConfig = {}`
+
+```typescript
+
+const serverConfig = {
+    protocol: "https",
+    port: 3000,
+    role: "admin"
+}
+
+const backipConfig = {
+    protocol: "http",
+    port: 3001,
+}
+
+interface BasicConfig {
+    protocol: string,
+    port: number,
+}
+
+
+const startServer = (config: BasicConfig): string => {
+  console.log(`Протокола ${config.protocol} Порт: ${config.port}`);
+  return "Server started";
+}
+
+
+startServer(serverConfig);
+startServer(backipConfig);
+
+
+
+```
+
+<!-- Больше примеров -->
+
+```typescript
+
+// Определение типа для конфигурации сервера
+type ServerConfig = {
+  protocol: "https" | "http";
+  port: 3000 | 3001;
+  log: (msg: string) => void;
+};
+
+const newServerConfig: ServerConfig = {
+  protocol: "https",
+  port: 3000,
+  log: (msg: string): void => console.log(msg),
+};
+
+type StartFunction = (config: ServerConfig) => string;
+
+const createStartServer: StartFunction = (
+  config: ServerConfig
+): string => {
+  config.log(`Server started on ${config.protocol} use port: ${config.port}`);
+  return "Server started";
+};
+
+createStartServer(newServerConfig);
+
+const person: string = 'Jackson';
+
+```
+
