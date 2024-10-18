@@ -82,16 +82,18 @@ function showMessage(message: string, user?: string): void {
   console.log(`${message}, ${user ?? "Guest"}`);
 }
 
+// необзательные параментры могут быть и у объектов
+
 
 // #  --------------- Интерфейсы и типы (Interfaces and Type Aliases) (11)
 
 // Интерфейс для объекта:
-interface Person {
+interface Persons {
   name: string;
   age: number;
 }
 
-let alice: Person = {
+let alice: Persons = {
   name: "Alice",
   age: 25
 };
