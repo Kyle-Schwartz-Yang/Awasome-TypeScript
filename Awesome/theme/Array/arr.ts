@@ -16,3 +16,11 @@ const arrArray: number[][] = [
 
 
 const arr52: [string, ...number[]] = ['Первый', 2, 3, 4];
+
+
+
+// Что-то из предложеного типа
+let mixedArray: (string | number | boolean)[] = [42, "hello", true];
+
+// tuple (кортеж)
+let tupleArray: [string, number, boolean] = ["hello", 42, true];
