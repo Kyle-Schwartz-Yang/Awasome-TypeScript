@@ -46,7 +46,7 @@ const totalData: TotalWarehouse = {
   Должно получиться: We need this items: hats, socks, cookers" 
 */
 
-//# Использование type assertion с as
+//# Использование for...in / type assertion / operator keyof
 
 function printReport(data: TotalWarehouse): string {
   const emptyItems: string[] = [];
@@ -65,6 +65,8 @@ function printReport(data: TotalWarehouse): string {
 }
 
 
+//# Использование Object.entries
+
 // function printReport(data: TotalWarehouse): string {
 //   const emptyItems: string[] = [];
 
@@ -80,25 +82,9 @@ function printReport(data: TotalWarehouse): string {
 //   }
 
 //   return "Everything fine";
-
 // }
 
+
+
+
 // console.log(printReport(totalData));
-
-
-/*
-
-Object.entries() доступна в es2017:
-
-tsconfig.json
-
-  {
-      "compilerOptions": {
-          "target": "es2017", // или более поздняя версия
-          "lib": ["es2017", "dom"],
-          "strict": true,
-          "noImplicitAny": true,
-          "strictNullChecks": true
-      }
-  }
-*/
