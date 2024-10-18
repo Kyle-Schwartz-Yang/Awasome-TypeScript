@@ -1,0 +1,4 @@
+
+
+const alfa: string = 'okey';
+
