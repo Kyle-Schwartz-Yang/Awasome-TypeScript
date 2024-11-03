@@ -10,6 +10,7 @@
 // as
 let someValue: unknown = "Hello, TypeScript!";
 let strLength: number = (someValue as string).length;
+console.log(strLength);
 ```
 
 ### Синтаксис через угловые скобки:
