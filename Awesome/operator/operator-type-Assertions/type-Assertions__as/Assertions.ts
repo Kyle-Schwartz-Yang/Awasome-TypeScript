@@ -1,3 +1,7 @@
+export {}
+
+
+
 interface Person {
   name: string,
   surname: string,
@@ -23,3 +27,8 @@ for (let key in asserionObj) {
 for (let key in asserionObj) {
   console.log(asserionObj[<keyof Person>key])
 }
+
+
+let someValue: unknown = "Hello, TypeScript!";
+let strLength: number = (someValue as string).length;
+console.log(strLength)
