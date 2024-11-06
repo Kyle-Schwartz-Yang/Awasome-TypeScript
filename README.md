@@ -79,6 +79,4 @@ ts-node ${folder/file.ts}
 
 ```
 
-## Основные изменения для tsconfig.json
 
-```
