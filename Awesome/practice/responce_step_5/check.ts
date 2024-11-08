@@ -2,10 +2,7 @@
 
 export {}
 
-
-
 // Можно и не создавать перечисление, но вдруг в будущем статусов будет больше?
-
 
 interface iAnimals {
 
@@ -14,7 +11,6 @@ interface iAnimals {
 	sterilized?: string;
 
 }
-
 
 interface iSuccess {
   status: 'available',
@@ -29,7 +25,6 @@ interface iSuccess {
 
 }
 
-
 interface iError {
   status: 'not available',
 
@@ -37,11 +32,7 @@ interface iError {
       message: string,
       nextUpdateIn: Date
   }
-
 }
-
-
-
 
 // function isAvailable(res: Res): res is iSuccess {
 // 	if (res.status === 'available') {
@@ -51,15 +42,14 @@ interface iError {
 // 	}
 // }
 
-
 /*
 - Как называется запись iSuccess['data'] ?
 - Такая запись называется доступ к типу по индексу (или Indexed Access Type)
 - Этот синтаксис позволяет получать тип конкретного свойства интерфейса или типа, обращаясь к нему по имени через квадратные скобки
-
 */
 
 type Res = iSuccess | iError;
+
 
 function checkAnimalData(animal: Res): iSuccess['data'] | string {
 
@@ -70,3 +60,4 @@ function checkAnimalData(animal: Res): iSuccess['data'] | string {
 	}
 
 }
+
