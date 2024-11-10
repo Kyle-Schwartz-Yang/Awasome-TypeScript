@@ -1,23 +1,24 @@
 # Awesome TypeScript
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-%234B4B5D?style=for-the-badge&logo=typescript&logoColor=%233178C6)](<[https://www.typescriptlang.org/](https://www.typescriptlang.org/)>)
+
 <hr>
 
 > **Язык программирования, разработанный Microsoft** 🏛️
 
-
+<details>
+  <summary>About `Typescript`</summary>
+  
 - 🚩 Статическая типизация:💡 Позволяет задавать типы переменных, что помогает избежать ошибок во время выполнения.
 
-- 🚩 Обратная совместимость с JavaScript:🚀 
-- 🚩 Обратная совместимость с JavaScript:🚀 
+- 🚩 Обратная совместимость с JavaScript:🚀
 
-- 🚩 Компиляция в JavaScript:↩️ TypeScript компилируется в чистый JavaScript.
 - 🚩 Компиляция в JavaScript:↩️ TypeScript компилируется в чистый JavaScript.
 
 - 🚩 Поддержка современных возможностей JavaScript.📜
-- 🚩 Поддержка современных возможностей JavaScript.📜
 
 - 🚩 Использование Angular и REACT 💨
-- 🚩 Использование Angular и REACT 💨
+</details>
 
 <hr>
 <!-- ------------------------------------------------------------- -->
@@ -80,5 +81,7 @@ ts-node ${folder/file.ts}
 ```
 
 ## Основные изменения для tsconfig.json
+
+```
 
 ```
