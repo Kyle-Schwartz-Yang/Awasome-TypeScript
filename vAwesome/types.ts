@@ -12,6 +12,13 @@ let emptyValue: null = null;
 let notAssigned: undefined = undefined;
 let uniqueId: symbol = Symbol("id");
 
+// ---------------------------------------
+
+
+const time: Date = new Date();
+const nArray: number[] = [1, 2, 3];
+
+
 /* 
 #Для использования type bigint нужны настройки tsconfig.json 
 let largeNumber: bigint = 123456789123456789n;
