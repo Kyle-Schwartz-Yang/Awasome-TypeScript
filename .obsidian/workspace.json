@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4931c1cac979d7a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_router.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_router"
-            }
-          },
-          {
-            "id": "929d06cbbae0a5f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_documentum_/Type Manipulation/Indexed Access Types/Indexed Access Types.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Indexed Access Types"
-            }
-          },
-          {
-            "id": "73254462821fd187",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HOME"
-            }
-          },
-          {
-            "id": "0f10a2e9e00e3cf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_documentum_/DOM/DOM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DOM"
-            }
-          },
-          {
             "id": "8b1ec547d44be726",
             "type": "leaf",
             "state": {
@@ -77,8 +21,7 @@
               "title": "HOME"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,40 +165,40 @@
   "active": "8b1ec547d44be726",
   "lastOpenFiles": [
     "_documentum_/DOM/DOM.md",
+    "_documentum_/Narrowing/Narrowing-typeGuards/Narrowing.md",
     "HOME.md",
-    "_documentum_/theme/Array/Array.md",
-    "_documentum_/Narrowing/Narrowing-typeGuards/TypeGuards-Narrowing/TypeGuards.md",
-    "_documentum_/DOM/HTMLElement.md",
     "_documentum_/Type Manipulation/Indexed Access Types/Indexed Access Types.md",
-    "_documentum_/Everyday Types/TypeQuery/typequery.md",
-    "_documentum_/Everyday Types/TypeQuery/type-query.md",
-    "_documentum_/Everyday Types/type-transfer/transfer.md",
-    "_documentum_/Everyday Types/type-transfer/36 - Type-transfer.pdf",
-    "_documentum_/theme/interfaces-or-aliases/interfaces-or-aliases.md",
+    "_documentum_/Everyday Types/Operator/Non-Undefined/Non-Undefined.md",
+    "_documentum_/Everyday Types/Operator/Literal Types/Literal Types.md",
+    "_documentum_/Everyday Types/Operator/Non-Null/Non-Null.md",
+    "_documentum_/Everyday Types/Operator/Assertions Type/Assertions Type.md",
+    "_documentum_/Everyday Types/Operator/Union Types/Union Types.md",
+    "_documentum_/Everyday Types/Type Aliases/Type Aliases.md",
+    "_documentum_/Everyday Types/_primitives/undefined/undefined.md",
+    "_documentum_/Everyday Types/_primitives/null/null.md",
+    "_documentum_/Everyday Types/_primitives/Symbol/Symbol.md",
+    "_documentum_/Everyday Types/_primitives/bigIn/bigIn.md",
+    "_documentum_/Everyday Types/_primitives/basic/basic types.md",
+    "_documentum_/Everyday Types/Unknown/Unknown.md",
+    "_documentum_/Everyday Types/Type query/Type query.md",
+    "_documentum_/Everyday Types/Type transfer/Type transfer.md",
+    "_documentum_/Everyday Types/Never/Type Never.md",
+    "_documentum_/Everyday Types/Never/caseNever.md",
     "_documentum_/Everyday Types/Interfaces/Type inference.md",
+    "_documentum_/Everyday Types/Interfaces/Interfaces.md",
+    "_documentum_/Everyday Types/Enum/Enum.md",
+    "_documentum_/Everyday Types/Any/Type any.md",
+    "_documentum_/Everyday Types/Any/links-any.md",
+    "_documentum_/DOM/HTMLElement.md",
+    "_documentum_/Everyday Types/Type transfer/36 - Type-transfer.pdf",
     "_documentum_/Everyday Types/Interfaces/code/interfaces_2.ts",
     "_documentum_/Everyday Types/Interfaces/interfaces_2.ts",
     "_documentum_/Everyday Types/Interfaces/code/interfaces_1.ts",
     "_documentum_/Everyday Types/Interfaces/interfaces_1.ts",
     "_documentum_/Everyday Types/Interfaces/code",
-    "_documentum_/Everyday Types/Interfaces/interfaces.md",
-    "_documentum_/Property/Class Property/Static/Static.md",
-    "_documentum_/Property/Class Property/Class Property.md",
     "_documentum_/Property/Class Property/Static",
-    "_documentum_/Property/Class Property/Protected/Protected.md",
-    "_documentum_/Property/Class Property/Private/Private.md",
-    "_documentum_/Property/Class Property/Public/Public.md",
-    "_documentum_/Property/Readonly/readonly.md",
     "_documentum_/Property/Class Property/Protected",
     "_documentum_/Property/Class Property/Private",
-    "Без назви",
-    "_documentum_/Property/Optional-property-modifiers/information.md",
-    "_documentum_/Everyday Types/Unknown/Unknown.md",
-    "_documentum_/Everyday Types/Type Aliases/_aliases__Intersection/Intersection.md",
-    "_documentum_/Everyday Types/Type Aliases/Aliases.md",
-    "_documentum_/theme/Array/Tuples/Tuples.md",
-    "_documentum_/theme/Object/object-literal.md",
-    "_documentum_/theme/Functions/fn-overloading/fn-overload.md",
-    "_documentum_/theme/Functions/beginner/fn.md"
+    "Без назви"
   ]
 }

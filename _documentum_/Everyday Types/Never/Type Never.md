@@ -1,9 +1,14 @@
-# `TYPE : NEVER` 
+
 - [Type :never](https://www.typescriptlang.org/docs/handbook/2/functions.html#never) - official website 📌
+
+---
 
 - Нужно понять разницу между `:never` и `:void`
 - Выбрасывание ошибок обычно возвращает `:never`
 - Бескнечные функции возвращают `type :never`
+
+---
+
 
 ```TypeScript
 // Возвращает :never
