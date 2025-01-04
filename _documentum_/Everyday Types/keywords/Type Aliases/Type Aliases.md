@@ -9,7 +9,7 @@ tags:
 - Це и буде мати назву [[Type Aliases]]
 ---
 ```typescript
-  type Status = "success" | "error" | "loading";
+  type Status = "success" | "error" | "loading"; // Type Aliases
 
     function checkStatus(status: Status) {
       // status может быть только "success", "error", или "loading"

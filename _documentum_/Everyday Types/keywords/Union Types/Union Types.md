@@ -4,7 +4,7 @@
 
 - Активно використовується у [[Type Aliases]] 💡
 - Активно може використовувати [Literal Types]
--  Активно використовує [[Narrowing]]
+-  Активно використовує [[_documentum_/Narrowing/Narrowing/Narrowing]]
 
 ```TypeScript
 const message: string | number = 5;
