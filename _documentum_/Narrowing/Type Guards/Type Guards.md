@@ -1,18 +1,75 @@
-## `Type Guards в TypeScript` — это инструменты, которые позволяют сужать (`narrowing`)
+---
+tags:
+  - guards
+  - type_guards
+  - narrowing
+---
 
-- Проверка с помощью `typeof`
+> `Type Guards` — это конструкции, которые позволяют вам проверять тип переменной во время выполнения и «защищают» от неправильных предположений о типах. Когда вы используете `Type Guards`, вы фактически выполняете `narrowing`, так как уточняете тип переменной на основе проверок.
+
+- `Type Guards` и `Narrowing` в TypeScript действительно тесно связаны, но они не идентичны.
+- `Type Guards` — это конструкции, которые помогают уточнить (или «защитить») тип переменной во время выполнения.
+- `Narrowing` — это процесс сужения типа на основе этих проверок.
+
+
+1. Проверка типа с помощью `typeof`:
 
 ```ts
-function example(value: string | number) {
-  if (typeof value === "string") {
-    // value: string
-  } else {
-    // value: number
+
+  function processValue(value: string | number) {
+    if (typeof value === "string") {
+      // Здесь TypeScript знает, что value — это string
+      console.log(value.toUpperCase());
+    } else {
+      // Здесь TypeScript знает, что value — это number
+      console.log(value.toFixed(2));
+    }
   }
-}
+
 ```
 
-- Условные проверки с `in`
+2. Проверка типа с помощью `instanceof Type Guards`
+
+```ts
+
+  class Animal {
+    move() {
+      console.log("Moving along!");
+    }
+  }
+
+  class Dog extends Animal {
+    bark() {
+      console.log("Woof! Woof!");
+    }
+  }
+
+  function makeSound(animal: Animal) {
+    if (animal instanceof Dog) {
+      animal.bark(); // Здесь TypeScript знает, что animal — это Dog
+    } else {
+      animal.move(); // Здесь animal — это Animal
+    }
+  }
+
+```
+
+3. Пользовательские `Type Guards`: *Вы можете создать свою функцию type guard, которая возвращает значение типа, например:*
+
+```ts
+
+  function isString(value: unknown): value is string {
+    return typeof value === 'string';
+  }
+
+  const example: unknown = "Hello!";
+  if (isString(example)) {
+    console.log(example.length); // Здесь TypeScript знает, что это строка
+  }
+
+```
+
+4.  Умовні перевірки з `in`
 
 ```ts
 interface Car {
@@ -32,51 +89,6 @@ function move(vehicle: Car | Bike) {
 }
 ```
 
-- Использование `instanceof Type Guards`
-
-```ts
-class Dog {
-  bark() {}
-}
-
-class Cat {
-  meow() {}
-}
-
-function speak(animal: Dog | Cat) {
-  if (animal instanceof Dog) {
-    animal.bark(); // animal: Dog
-  } else {
-    animal.meow(); // animal: Cat
-  }
-}
-```
-
-- Пользовательские `Type Guards`
-
-> `pet is Dog` эта запись говорит что аргумент pet должен совпадать с Dog
-
-```ts
-interface Dog {
-  bark: () => void;
-}
-
-interface Cat {
-  meow: () => void;
-}
-
-function isDog(pet: Dog | Cat): pet is Dog {
-  return (pet as Dog).bark !== undefined;
-}
-
-const pet: Dog | Cat = { bark: () => console.log("Woof") };
-
-if (isDog(pet)) {
-  pet.bark(); // Теперь TypeScript знает, что это Dog
-} else {
-  pet.meow(); // Здесь TypeScript знает, что это Cat
-}
-```
 
 - Объединения и пересечения (`Union and Intersection Types`)
 

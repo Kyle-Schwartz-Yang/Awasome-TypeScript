@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_documentum_/Narrowing/Narrowing.md",
+                "file": "HOME.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Narrowing"
+              "title": "HOME"
             }
           },
           {
-            "id": "8fbfa40dd4a1e4e3",
+            "id": "d98464abe707681a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_documentum_/Narrowing/Narrowing.md",
+                "file": "_documentum_/Everyday Types/Interfaces/Type Interfeces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Narrowing"
+              "title": "Type Interfeces"
             }
           },
           {
@@ -193,18 +193,31 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "8fbfa40dd4a1e4e3",
+  "active": "d98464abe707681a",
   "lastOpenFiles": [
+    "_documentum_/Everyday Types/Interfaces/interfaces-or-aliases.md",
+    "_documentum_/Everyday Types/Interfaces/Type Interfeces.md",
+    "HOME.md",
+    "_documentum_/Everyday Types/keywords/Type Aliases/Type Aliases.md",
+    "_documentum_/Everyday Types/Interfaces/info interfeces.md",
+    "_documentum_/Everyday Types/_primitives basic/Primitives basic.md",
+    "_documentum_/Everyday Types/_primitives basic/bigIn/bigIn.md",
+    "_documentum_/Everyday Types/_primitives basic/basic/basic types.md",
+    "_documentum_/Narrowing/Narrowing/Narrowing.md",
+    "Типів об'єднання.md",
     "_documentum_/Narrowing/Type Guards/Type Guards.md",
-    "_documentum_/Narrowing/Narrowing.md",
+    "_documentum_/Narrowing/Type predicate/Type predicate.md",
+    "_documentum_/Everyday Types/Array, Object, Tuple/Object in Typescript/Object in Typescript.md",
+    "_documentum_/Everyday Types/Array, Object, Tuple/Object in Typescript/Object Shape.md",
+    "_documentum_/Everyday Types/Array, Object, Tuple/Object in Typescript/Object Literal.md",
+    "Narrowing.md",
+    "_documentum_/Everyday Types/Operator/Intersection Types/Intersection Types.md",
+    "_documentum_/Everyday Types/Operator/Intersection Types",
     "_documentum_/Narrowing/Type Guards",
     "_documentum_/Everyday Types/keywords/Union Types/Union Types.md",
-    "HOME.md",
     "_documentum_/Everyday Types/Function, Function Types/Function Types/Function Types.md",
-    "_documentum_/Narrowing/Narrowing-typeGuards/typePredicate/predicate.md",
-    "_documentum_/Narrowing/TypeGuards-Narrowing/typeGuards.ts",
-    "_documentum_/Narrowing/TypeGuards-Narrowing/TypeGuards.md",
-    "_documentum_/Narrowing/TypeGuards-Narrowing",
+    "_documentum_/Narrowing/Narrowing/typeGuards.ts",
+    "_documentum_/Narrowing/Narrowing",
     "_documentum_/Everyday Types/Function, Function Types/beginner/Function basic.md",
     "_documentum_/Everyday Types/Function, Function Types/beginner/Function beginner.md",
     "_documentum_/Everyday Types/Function, Function Types/beginner/fn.md",
@@ -216,21 +229,8 @@
     "_documentum_/Everyday Types/Function, Function Types/Function overloading",
     "_documentum_/Everyday Types/Function, Function Types/fn-overloading/fn-overload.md",
     "_documentum_/Everyday Types/Function, Function Types/Function Types",
-    "_documentum_/Everyday Types/Property/Readonly/Readonly.md",
-    "_documentum_/Everyday Types/_primitives basic/null/null.md",
-    "_documentum_/Everyday Types/Property/Class Property/Class Property.md",
-    "_documentum_/Everyday Types/Property/Optional-property-modifiers/Optional-property-modifiers.md",
-    "_documentum_/Everyday Types/Literal Types/Literal Types.md",
-    "_documentum_/Everyday Types/keywords/Type Aliases/Type Aliases.md",
     "_documentum_/Everyday Types/keywords",
-    "_documentum_/Everyday Types/Operator/Type Transfer/Type Transfer.md",
-    "_documentum_/Everyday Types/keywords/Type Queries/Type Queries.md",
-    "_documentum_/Everyday Types/keywords/Assertions Type/Assertions Type.md",
-    "_documentum_/Everyday Types/Array, Object, Tuple/Object in Typescript/Object in Typescript.md",
-    "_documentum_/Everyday Types/Array, Object, Tuple/Array in Typescript/Array in Typescript.md",
-    "_documentum_/Everyday Types/_primitives Typescript/Type Void/Type Void.md",
     "_documentum_/theme/Practice/_theme/Array.ts",
-    "_documentum_/theme/Practice/_theme",
     "Без назви.canvas"
   ]
 }

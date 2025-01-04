@@ -16,7 +16,7 @@ tags:
 
 1. [[DOM]]
 2. Everyday Types
-	1. [[Interfaces]]
+	1. [[Type Interfeces]]
 	2. [[Literal Types]]
 	3. Keywords
 		1. [[Union Types]]
@@ -27,7 +27,7 @@ tags:
 		1. [[Non-Null]]
 		2. [[Non-Undefined]]
 		3. [[Type Transfer]] - bad
-	5. Primitives basic
+	5. [[Primitives basic]]
 		1. [[bigIn]]
 		2. [[Symbol]]
 		3. [[null]]
@@ -45,10 +45,14 @@ tags:
 		3. [[Function basic]]
 	8. Array, Object, Tuple
 		1. [[Object in Typescript]]
+			1. [[Object Literal ]]- BAD
+			2. [[Object Shape]]
 		2. [[Array in Typescript]]
 		3. [[Tuples]]
 3. Narrowing
-	1. 
+	1. [[Type Guards]]
+	2. [[Type predicate]]
+	3. [[Narrowing]]
 4. Theme
 	1. Practice: typescript
 5. Type Manipulation

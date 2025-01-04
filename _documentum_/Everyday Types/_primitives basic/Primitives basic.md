@@ -1,0 +1,6 @@
+- [[basic types]]
+- [[bigin]]
+- [[null]]
+- [[undefined]]
+- [[Symbol]]
+---
