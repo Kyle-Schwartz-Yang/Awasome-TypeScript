@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_documentum_/Everyday Types/_primitives Typescript/Type Never/Type Never.md",
+                "file": "_documentum_/Everyday Types/_primitives Typescript/Type Void/Type Void.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Type Never"
+              "title": "Type Void"
             }
           },
           {
@@ -209,12 +209,13 @@
   },
   "active": "27daa3a95750b902",
   "lastOpenFiles": [
-    "_documentum_/Everyday Types/_primitives Typescript/Type Never/Practice Type Never.md",
+    "HOME.md",
+    "_documentum_/Everyday Types/_primitives Typescript/Type Void/Type Void.md",
     "_documentum_/Everyday Types/_primitives Typescript/Type Never/Type Never.md",
+    "_documentum_/Everyday Types/_primitives Typescript/Type Never/Practice Type Never.md",
     "_documentum_/Everyday Types/_primitives Typescript/Type Never/caseNever.md",
     "_documentum_/theme/Practice/interfaces_aliases_step_3/desription.md",
     "template/Задати Властивості.md",
-    "HOME.md",
     "_documentum_/Everyday Types/Interfaces/Type Interfeces.md",
     "_documentum_/Everyday Types/Interfaces/interfaces-or-aliases.md",
     "_documentum_/Everyday Types/keywords/Type Aliases/Type Aliases.md",
@@ -238,7 +239,6 @@
     "_documentum_/Narrowing/Narrowing/typeGuards.ts",
     "_documentum_/Narrowing/Narrowing",
     "_documentum_/Everyday Types/Function, Function Types/beginner/Function basic.md",
-    "_documentum_/Everyday Types/Function, Function Types/beginner/Function beginner.md",
     "_documentum_/Everyday Types/Function, Function Types/beginner/fn.ts",
     "_documentum_/Everyday Types/Function, Function Types/Function overloading/fn-overload.ts",
     "_documentum_/Everyday Types/Function, Function Types/Function overloading",
