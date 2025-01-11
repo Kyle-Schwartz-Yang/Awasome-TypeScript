@@ -1,5 +1,5 @@
-- [[basic types]]
-- [[bigin]]
+- [[string, number, boolean]]
+- [[bigIn]]
 - [[null]]
 - [[undefined]]
 - [[Symbol]]

@@ -11,53 +11,52 @@ tags:
 
 ## Documentum:
 
+---
+-  [[DOM]]
+- Everyday Types
 
-🏠 [[HOME]]
-
-1. [[DOM]]
-2. Everyday Types
-	1. [[Type Interfeces]]
-	2. [[Literal Types]]
-	3. Keywords
-		1. [[Union Types]]
+	- [[Type Interfeces]]
+	-  Keywords
+		1. [[Type Union]]
 		2. [[Type Aliases]]
-		3. [[Assertions Type]]
+		3. [[Type Assertions]]
 		4. [[Type Queries]] 
-	4. Operator 
-		1. [[Non-Null]]
-		2. [[Non-Undefined]]
-		3. [[Type Transfer]] - bad
-	5. [[Primitives basic]]
-		1. [[bigIn]]
-		2. [[Symbol]]
-		3. [[null]]
-		4. [[undefined]]
-		5. [[basic types]]  - ( string, number, boolean )
-	6. Primitives Typescript 
-		1. [[Type Never]]
-		2. [[Type Any]]
-		3. [[Enum]]
-		4. [[Unknown]]
-		5. [[Type Void]]
-	7. Function, Function Types
-		1. [[Function overload]]
-		2. [[Function Types]]
-		3. [[Function basic]]
-	8. Array, Object, Tuple
-		1. [[Object in Typescript]]
-			1. [[Object Literal ]]- BAD
-			2. [[Object Shape]]
-		2. [[Array in Typescript]]
-		3. [[Tuples]]
-3. Narrowing
+	-  Operator 
+		- [[Non-Null]]
+		- [[Non-Undefined]]
+		- [[Type Transfer]] - bad
+	- [[Primitives basic]]
+		- [[string, number, boolean]] 
+		- [[bigIn]]
+		- [[Symbol]]
+		-  [[null]]
+		-  [[undefined]]
+	-  Primitives Typescript 
+		-  [[Type Never]]
+		-  [[Type Any]]
+		-  [[Type Void]]
+		-  [[Type Unknown]]
+		-  [[Type Literal]]
+		-  [[Enum]]
+	-  Function, Function Types
+		-  [[Function overload]]
+		-  [[Function Types]]
+		-  [[Function basic]]
+	-  Array, Object, Tuple
+		-  [[Object in Typescript]]
+			-  [[Object Literal ]]- BAD
+			-  [[Object Shape]]
+		-  [[Array in Typescript]]
+		-  [[Tuples]]
+- Narrowing
 	1. [[Type Guards]]
 	2. [[Type predicate]]
 	3. [[Narrowing]]
-4. Theme
+- Theme
 	1. Practice: typescript
-5. Type Manipulation
+- Type Manipulation
 	1. [[Indexed Access Types]]
-6. Property
+- Property
 	1. [[Readonly]]
 	2. [[Optional-property-modifiers]]
 	3. [[Class Property]]
@@ -65,10 +64,7 @@ tags:
 		2. [[Protected]]
 		3. [[Static]]
 		4. [[Public]]
-
-
-<a><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"> </a>
-
+---
 
 ## Documentum_2:
 
