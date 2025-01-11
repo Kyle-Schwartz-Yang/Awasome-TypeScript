@@ -8,45 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5b68dd65608e0ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HOME"
-            }
-          },
-          {
-            "id": "d98464abe707681a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_documentum_/Everyday Types/_primitives Typescript/Type Never/Type Never.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Type Never"
-            }
-          },
-          {
             "id": "27daa3a95750b902",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_documentum_/Everyday Types/_primitives Typescript/Type Void/Type Void.md",
+                "file": "_documentum_/Everyday Types/Primitives Typescript/Type Literal/Type Literal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Type Void"
+              "title": "Type Literal"
             }
           },
           {
@@ -64,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,12 +179,20 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "27daa3a95750b902",
+  "active": "d9581bcc4578834c",
   "lastOpenFiles": [
+    "_documentum_/Everyday Types/Primitives Javascript/null/null.md",
     "HOME.md",
-    "_documentum_/Everyday Types/_primitives Typescript/Type Void/Type Void.md",
-    "_documentum_/Everyday Types/_primitives Typescript/Type Never/Type Never.md",
-    "_documentum_/Everyday Types/_primitives Typescript/Type Never/Practice Type Never.md",
+    "_documentum_/Everyday Types/Primitives Javascript/string, number, boolean/string, number, boolean.md",
+    "_documentum_/Everyday Types/Primitives Javascript/Primitives basic.md",
+    "_documentum_/Everyday Types/Primitives Typescript/Type Unknown/Type Unknown.md",
+    "_documentum_/Everyday Types/Primitives Typescript/Enum/Enum.md",
+    "_documentum_/Everyday Types/Primitives Typescript/Type Literal/Type Literal.md",
+    "_documentum_/Everyday Types/keywords/Type Assertions/Type Assertions.md",
+    "_documentum_/Everyday Types/keywords/Type Union/Type Union.md",
+    "_documentum_/Everyday Types/Primitives Typescript/Type Void/Type Void.md",
+    "_documentum_/Everyday Types/Primitives Typescript/Type Never/Type Never.md",
+    "_documentum_/Everyday Types/Primitives Typescript/Type Never/Practice Type Never.md",
     "_documentum_/Everyday Types/_primitives Typescript/Type Never/caseNever.md",
     "_documentum_/theme/Practice/interfaces_aliases_step_3/desription.md",
     "template/Задати Властивості.md",
@@ -220,25 +200,17 @@
     "_documentum_/Everyday Types/Interfaces/interfaces-or-aliases.md",
     "_documentum_/Everyday Types/keywords/Type Aliases/Type Aliases.md",
     "_documentum_/Everyday Types/Interfaces/info interfeces.md",
-    "_documentum_/Everyday Types/_primitives basic/Primitives basic.md",
-    "_documentum_/Everyday Types/_primitives basic/bigIn/bigIn.md",
-    "_documentum_/Everyday Types/_primitives basic/basic/basic types.md",
+    "_documentum_/Everyday Types/Primitives Javascript/bigIn/bigIn.md",
     "_documentum_/Narrowing/Narrowing/Narrowing.md",
     "Типів об'єднання.md",
     "_documentum_/Narrowing/Type Guards/Type Guards.md",
     "_documentum_/Narrowing/Type predicate/Type predicate.md",
     "_documentum_/Everyday Types/Array, Object, Tuple/Object in Typescript/Object in Typescript.md",
     "_documentum_/Everyday Types/Array, Object, Tuple/Object in Typescript/Object Shape.md",
-    "_documentum_/Everyday Types/Array, Object, Tuple/Object in Typescript/Object Literal.md",
-    "Narrowing.md",
-    "_documentum_/Everyday Types/Operator/Intersection Types/Intersection Types.md",
     "_documentum_/Everyday Types/Operator/Intersection Types",
     "_documentum_/Narrowing/Type Guards",
-    "_documentum_/Everyday Types/keywords/Union Types/Union Types.md",
-    "_documentum_/Everyday Types/Function, Function Types/Function Types/Function Types.md",
     "_documentum_/Narrowing/Narrowing/typeGuards.ts",
     "_documentum_/Narrowing/Narrowing",
-    "_documentum_/Everyday Types/Function, Function Types/beginner/Function basic.md",
     "_documentum_/Everyday Types/Function, Function Types/beginner/fn.ts",
     "_documentum_/Everyday Types/Function, Function Types/Function overloading/fn-overload.ts",
     "_documentum_/Everyday Types/Function, Function Types/Function overloading",
